@@ -1,0 +1,100 @@
+/* Import a modern font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+#header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+/* Section Styles */
+div {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Education Styles */
+.education-list li {
+    margin-bottom: 10px;
+}
+
+.education-list li ul {
+    margin-left: 20px;
+}
+
+/* Skills Styles */
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+.skills-list li ul {
+    margin-left: 20px;
+}
+
+/* Co-curricular Styles */
+.activities-list li {
+    margin-bottom: 10px;
+}
+
+.activities-list li h3 {
+    color: #4CAF50;
+    margin-bottom: 5px;
+}
+
+.activities-list li ul {
+    margin-left: 20px;
+}
+
+/* Hobbies Styles */
+.hobbies-list li {
+    margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    #header {
+        padding: 10px;
+    }
+
+    .profile-image {
+        height: 80px;
+        width: 80px;
+    }
+
+    div {
+        padding: 10px;
+    }
+}
